@@ -1,0 +1,73 @@
+C:\Users\link>ping s330.s2022.xyz
+
+正在 Ping s330.s2022.xyz [8.218.2.25] 具有 32 字节的数据:
+来自 8.218.2.25 的回复: 字节=32 时间=147ms TTL=45
+来自 8.218.2.25 的回复: 字节=32 时间=145ms TTL=45
+请求超时。
+请求超时。
+
+8.218.2.25 的 Ping 统计信息:
+    数据包: 已发送 = 4，已接收 = 2，丢失 = 2 (50% 丢失)，
+往返行程的估计时间(以毫秒为单位):
+    最短 = 145ms，最长 = 147ms，平均 = 146ms
+
+C:\Users\link>ping s330.s2022.xyz
+
+正在 Ping s330.s2022.xyz [8.218.2.25] 具有 32 字节的数据:
+请求超时。
+来自 8.218.2.25 的回复: 字节=32 时间=148ms TTL=45
+来自 8.218.2.25 的回复: 字节=32 时间=148ms TTL=45
+请求超时。
+
+8.218.2.25 的 Ping 统计信息:
+    数据包: 已发送 = 4，已接收 = 2，丢失 = 2 (50% 丢失)，
+往返行程的估计时间(以毫秒为单位):
+    最短 = 148ms，最长 = 148ms，平均 = 148ms
+
+C:\Users\link>ping s330.s2022.xyz
+
+正在 Ping s330.s2022.xyz [8.218.2.25] 具有 32 字节的数据:
+请求超时。
+来自 8.218.2.25 的回复: 字节=32 时间=152ms TTL=45
+请求超时。
+请求超时。
+
+8.218.2.25 的 Ping 统计信息:
+    数据包: 已发送 = 4，已接收 = 1，丢失 = 3 (75% 丢失)，
+往返行程的估计时间(以毫秒为单位):
+    最短 = 152ms，最长 = 152ms，平均 = 152ms
+
+
+配置成功
+[] [VMess] 香港-网飞_1.6#340@653G(s330***xyz:42526)
+启动服务(2022/8/21 17:23:14)...
+Xray 1.5.5 (Xray, Penetrates Everything.) Custom (go1.18.1 windows/amd64)
+A unified platform for anti-censorship.
+2022/08/21 17:23:14 [Info] infra/conf/serial: Reading config: D:\Program Files (x86)\v2rayN-Core\config.json
+2022/08/21 17:23:14 [Warning] core: Xray 1.5.5 started
+2022/08/21 17:23:14 127.0.0.1:51196 accepted //gql.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51198 accepted //gql-realtime.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51194 accepted //steamcommunity.com:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51191 accepted //gql.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51188 accepted //steamcommunity.com:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51193 accepted //steamcommunity.com:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51190 accepted //www.redditstatic.com:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51189 accepted //steamcommunity.com:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51192 accepted //v.redd.it:443 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51207 accepted http://test.steampowered.com/204 [http -> proxy]
+2022/08/21 17:23:14 127.0.0.1:51195 accepted //gql-realtime.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:15 127.0.0.1:51211 accepted //gql-realtime.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:17 127.0.0.1:51213 accepted //gql-realtime.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:21 127.0.0.1:51215 accepted //v.redd.it:443 [http -> proxy]
+2022/08/21 17:23:24 [Warning] [351430587] app/proxyman/outbound: failed to process outbound traffic > proxy/vmess/outbound: failed to find an available destination > common/retry: [transport/internet/websocket: failed to dial WebSocket > transport/internet/websocket: failed to dial to (wss://s330.s2022.xyz:42526/panelmyadmin):  > dial tcp 8.218.2.25:42526: operation was canceled transport/internet/websocket: failed to dial WebSocket > transport/internet/websocket: failed to dial to (wss://s330.s2022.xyz:42526/panelmyadmin):  > dial tcp: lookup s330.s2022.xyz: operation was canceled] > common/retry: all retry attempts failed
+2022/08/21 17:23:26 127.0.0.1:51220 accepted //www.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:32 127.0.0.1:51229 accepted //v.redd.it:443 [http -> proxy]
+2022/08/21 17:23:32 127.0.0.1:51231 accepted //api.steampowered.com:443 [http -> proxy]
+2022/08/21 17:23:35 127.0.0.1:51234 accepted //steamcommunity.com:443 [http -> proxy]
+2022/08/21 17:23:35 127.0.0.1:51236 accepted //steamcommunity.com:443 [http -> proxy]
+2022/08/21 17:23:35 127.0.0.1:51238 accepted //gateway.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:36 127.0.0.1:51240 accepted //market.csgo.com:443 [http -> proxy]
+2022/08/21 17:23:36 127.0.0.1:51242 accepted //oauth.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:36 127.0.0.1:51244 accepted http://test.steampowered.com/204 [http -> proxy]
+2022/08/21 17:23:37 127.0.0.1:51247 accepted //w3-reporting.reddit.com:443 [http -> proxy]
+2022/08/21 17:23:43 [Warning] [2282510835] app/proxyman/inbound: connection ends > proxy/http: connection ends > proxy/http: failed to write response > write tcp 127.0.0.1:10809->127.0.0.1:51207: wsasend: An existing connection was forcibly closed by the remote host.
